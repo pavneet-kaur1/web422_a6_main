@@ -100,7 +100,7 @@ export default function MainNav() {
                   id="basic-nav-dropdown"
                   active={
                     router.pathname === "/favourites" ||
-                    router.pathname === "/history"
+                    router.pathname === "/History"
                   }
                 >
                   <Link href="/favourites" passHref legacyBehavior>
@@ -113,12 +113,12 @@ export default function MainNav() {
                       Favourites
                     </NavDropdown.Item>
                   </Link>
-                  <Link href="/history" passHref legacyBehavior>
+                  <Link href="/History" passHref legacyBehavior>
                     <NavDropdown.Item
                       onClick={(e) => {
                         setIsExpanded(false);
                       }}
-                      active={router.pathname === "/history"}
+                      active={router.pathname === "/History"}
                     >
                       Search History
                     </NavDropdown.Item>
