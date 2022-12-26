@@ -46,7 +46,7 @@ export default function MainNav() {
         expanded={isExpanded}
       >
         <Container>
-          <Navbar.Brand>Pavneet Kaur</Navbar.Brand>
+          <Navbar.Brand>Artwork</Navbar.Brand>
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
             onClick={(e) => {
